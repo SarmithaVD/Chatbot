@@ -18,13 +18,7 @@ This project implements a chatbot system designed to process and interpret uploa
    - User sign-up and login with Firebase for secure data management.
 7. **Chat History Management:**
    - Save, retrieve, and delete chat sessions using Firebase.
-
-## Good-to-Have Enhancements
-- **Bulk Uploads:** Supports multiple document uploads for batch processing.
-- **Security by Design:** User authentication and secure storage.
-- **Enhanced User Experience:** Improved UI/UX with custom styling and dynamic responses.
-- **Prevention of Hallucinations:** Ensures responses directly reference the uploaded documents.
-
+     
 ---
 
 ## System Requirements
@@ -97,8 +91,6 @@ This project implements a chatbot system designed to process and interpret uploa
    - Upload a document to analyze its content.
 3. **Chat Interaction:**
    - Enter queries to retrieve specific information or summaries from the document.
-4. **View and Manage Chats:**
-   - Save chat history and delete sessions as needed.
 
 ---
 
@@ -130,16 +122,6 @@ This project implements a chatbot system designed to process and interpret uploa
      }
      ```
 
-3. **Delete Chat Endpoint:**
-   - URL: `/delete-chat/{chat_name}`
-   - Method: DELETE
-   - Response:
-     ```json
-     {
-       "message": "Chat deleted successfully."
-     }
-     ```
-
 ---
 
 ## Important Notes
@@ -147,22 +129,4 @@ This project implements a chatbot system designed to process and interpret uploa
 - Replace `Groq API Key` with a valid key in the backend code.
 - Temporary files are deleted after processing to maintain security.
 
----
-
-## Future Improvements
-- Add support for bulk document uploads.
-- Implement streaming APIs for real-time responses.
-- Integrate additional security measures (e.g., JWT authentication).
-- Expand LLM capabilities with custom prompts and fine-tuned models.
-
----
-
-## Contributors
-- **Your Name** - Developer
-- **Team Members** - CRG Fintech Team
-
----
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
 
